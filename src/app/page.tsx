@@ -11,14 +11,9 @@ export default function Home() {
       <div className="flex flex-col">
         <HeroSection />
         <DemoSection />
-      <HowItWorksSection />
-      <PricingSection />
-
-
+        <HowItWorksSection />
+        <PricingSection />
       </div>
-      {/* <Button>hema vallika btn</Button> */}
-
-      
       {/* <CTASection /> */}
     </div>
   );
