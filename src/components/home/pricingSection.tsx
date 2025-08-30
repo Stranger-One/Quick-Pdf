@@ -47,7 +47,7 @@ const Pricingcard = ({
   paymentLink,
 }: PriceType) => {
   return (
-    <div className="relative w-full max-w-lg hover:scale-105 hover:transition-all duration-300">
+    <div id="pricing" className="relative w-full max-w-lg hover:scale-105 hover:transition-all duration-300">
       <div
         className={cn(
           "relative flex flex-col h-full gap-4 lg:gap-8 z-10 p-8 border-[1px] border-gray-500/20 rounded-2xl",
